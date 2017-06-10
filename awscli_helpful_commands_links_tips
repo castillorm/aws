@@ -12,5 +12,9 @@ http://docs.aws.amazon.com/cli/latest/userguide/tutorial-ec2-ubuntu.html#configu
 If you want to use Putty, here is a link to an article to convert your private key to .ppk format:
 https://vpsie.com/knowledge-base/use-puttygen-exe-convert-openssh-generated-rsa-private-key-putty-ppk-format-one/
 
+Another Good Tutorial for getting started with the AWS CLI:
+https://www.linux.com/blog/introduction-aws-command-line-tool
+https://www.linux.com/blog/introduction-aws-command-line-tool-part-2
+
 AWS IAM Dashboard:
 https://console.aws.amazon.com/iam/home?#/home
