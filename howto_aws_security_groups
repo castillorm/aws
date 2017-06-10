@@ -1,0 +1,16 @@
+Creating AWS Security Groups and Adding them to an Existing Instance
+aws ec2 create-security-group --group-name my-sg --description "My security group"
+
+Adding Rules to an existing security group:
+http://docs.aws.amazon.com/cli/latest/userguide/cli-ec2-sg.html
+
+aws ec2 authorize-security-group-ingress --group-name my-sg --protocol tcp --port 3389 --cidr 203.0.113.0/24
+
+To view the changes to my-sg, use the describe-security-groups command as follows:
+aws ec2 describe-security-groups --group-names my-sg
+
+Modifying an attribute of an existing instance:
+http://docs.aws.amazon.com/cli/latest/reference/ec2/modify-instance-attribute.html
+
+https://serverfault.com/questions/37088/how-to-add-a-security-group-to-a-running-ec2-instance
+aws ec2 modify-instance-attribute --instance-id i-12345 --groups sg-12345 sg-67890
