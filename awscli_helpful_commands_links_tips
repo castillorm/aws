@@ -9,5 +9,8 @@ aws ec2 describe-instances --filters "Name=instance-type,Values=t2.micro"
 AWS CLI Tutorial - Getting Started with Creating an EC2 Instance from the Command Line: 
 http://docs.aws.amazon.com/cli/latest/userguide/tutorial-ec2-ubuntu.html#configure-cli-launch-ec2
 
+If you want to use Putty, here is a link to an article to convert your private key to .ppk format:
+https://vpsie.com/knowledge-base/use-puttygen-exe-convert-openssh-generated-rsa-private-key-putty-ppk-format-one/
+
 AWS IAM Dashboard:
 https://console.aws.amazon.com/iam/home?#/home
