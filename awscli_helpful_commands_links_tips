@@ -1,0 +1,10 @@
+Showing the contents of a AWS security group:
+http://docs.aws.amazon.com/cli/latest/reference/ec2/describe-security-groups.html
+aws ec2 describe-security-groups --group-names MySecurityGroup
+
+
+AWS CLI Tutorial - Getting Started with Creating an EC2 Instance from the Command Line: 
+http://docs.aws.amazon.com/cli/latest/userguide/tutorial-ec2-ubuntu.html#configure-cli-launch-ec2
+
+AWS IAM Dashboard:
+https://console.aws.amazon.com/iam/home?#/home
