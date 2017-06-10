@@ -1,0 +1,5 @@
+To destroy an instance, you have to first stop the instance:
+aws ec2 stop-instances --instance-id i-0afb1084661e92fb0
+
+Then "terminate" the instance:
+aws ec2 terminate-instances --instance-id i-0afb1084661e92fb0
