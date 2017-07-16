@@ -18,3 +18,21 @@ https://www.linux.com/blog/introduction-aws-command-line-tool-part-2
 
 AWS IAM Dashboard:
 https://console.aws.amazon.com/iam/home?#/home
+
+Installing AWS CLI on Mac:
+http://docs.aws.amazon.com/cli/latest/userguide/cli-install-macos.html
+
+Another AWS CLI Tutorial: 
+http://docs.aws.amazon.com/cli/latest/userguide/tutorial-ec2-ubuntu.html
+
+Deploying a Development Env on AWS - Using the CLI:
+http://docs.aws.amazon.com/cli/latest/userguide/tutorial-ec2-ubuntu.html#configure-cli-launch-ec2
+
+Getting Started with Centos on AWS:
+https://aws.amazon.com/marketplace/pp/B00O7WM7QW
+https://wiki.centos.org/Cloud/AWS
+
+Finding an AWS AMI:
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/finding-an-ami.html
+https://stackoverflow.com/questions/40835953/how-to-find-ami-id-of-centos-7-image-in-aws-marketplace
+https://wiki.centos.org/Cloud/AWS
