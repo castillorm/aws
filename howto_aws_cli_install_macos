@@ -1,0 +1,6 @@
+Link to a tutorial that worked with Mac OS 10.13.3 (High Sierra):
+https://unix1on1.blogspot.com/2016/10/installing-aws-command-line-interface.html
+- Needed to make sure that Python was installed
+- Then installed pip
+- Then used this command to install the aws cli
+sudo pip install awscli --ignore-installed six
